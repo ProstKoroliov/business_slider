@@ -1,0 +1,95 @@
+body {
+    margin: 0 250px;
+    padding: 220px 160px;
+    border: 0;
+    max-width: 1100px;
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slider-img {
+    min-width: 100%;
+    display: none; 
+    width: 1100px;
+    height: 800px;
+}
+
+.slider-img.active {
+    display: block; 
+    justify-content: center;
+}
+
+.slider-cursors-container {
+    position: absolute;
+    top: 246px;
+    width: 100%;;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.slider-left {
+    margin:0 0 0 80px
+}
+
+.slider-right {
+    margin:0 80px 0 0
+}
+
+.strategy, .empaty, .trigger, .context, .analytics, .marketing {
+    position: relative;
+}
+
+
+.caption {
+    position: absolute; 
+    bottom: 0; 
+    height: 283px;
+    width: 1100px;
+    background-color: white;
+    opacity: 0.8;
+    padding: 15px; 
+    max-width: calc(100% - 20px); 
+    grid-row: auto;
+}
+
+.slider-text {
+    margin: 43px 12px 59px 80px; 
+}
+
+p {
+    width: 437px;
+}
+
+.slider-paragraph {
+    font-size: 1em;
+    height: 75px;
+}
+
+  
+  .slider-link {
+    position: absolute;
+    width: 150px; 
+    left: 80px;
+    top: 80px;
+    border-radius: 20px;
+    padding: 5px 28px 3px 28px;    
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    font-weight: 17.33;
+    display: flex;
+    justify-content: center;
+  }
+
+  
+
